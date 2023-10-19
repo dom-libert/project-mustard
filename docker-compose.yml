@@ -14,7 +14,9 @@ services:
         depends_on:
             - db
     db:
-        image: mysql:5.7
+        image: mariadb:10.6.4-focal
+        command: '--default-authentication-plugin=mysql_native_password'
+        restart: always
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: wordpress
