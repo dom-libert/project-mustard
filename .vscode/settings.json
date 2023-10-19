@@ -1,11 +1,7 @@
 {
     "files.exclude": {
-        "**/node_modules": true,
+        "node_modules": true,
         "mysql": true,
-        "wordpress/wp-includes": true,
-        "wordpress/wp-admin": true,
-        "wordpress/wp-content/languages": true,
-        "wordpress/wp-content/upgrade": true,
         "wordpress/index.php": true,
         "wordpress/license.txt": true,
         "wordpress/readme.html": true,
@@ -22,7 +18,12 @@
         "wordpress/wp-settings.php": true,
         "wordpress/wp-signup.php": true,
         "wordpress/wp-trackback.php": true,
-        "wordpress/xmlrpc.php": true
+        "wordpress/xmlrpc.php": true,
+        "wordpress/wp-includes": true,
+        "wordpress/wp-admin": true,
+        "wordpress/wp-content/languages": true,
+        "wordpress/wp-content/upgrade": true,
+        "wordpress/wp-content/upgrade-temp-backup": true
     },
     "cSpell.words": []
 }

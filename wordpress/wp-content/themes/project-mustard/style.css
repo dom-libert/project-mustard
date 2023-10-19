@@ -1,0 +1,19 @@
+/*
+Theme Name: Project Mustard
+Author: David Charles | addmustard
+Author URI: https://www.addmustard.com
+Description: Testing wordpress build
+Version: 1.0
+Text Domain: Project Mustard
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

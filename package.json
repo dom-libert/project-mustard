@@ -1,0 +1,13 @@
+{
+    "name": "project-mustard",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/addmustardTech/project-mustard.git",
+    "author": "David <david.charles@addmustard.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "sass": "^1.69.3",
+        "typescript": "^5.2.2"
+    },
+    "scripts": {}
+}

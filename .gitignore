@@ -1,4 +1,5 @@
 mysql
+node_modules
 
 wordpress/index.php
 wordpress/license.txt
@@ -23,6 +24,13 @@ wordpress/wp-includes
 
 wordpress/wp-content/languages
 wordpress/wp-content/upgrade
+wordpress/wp-content/upgrade-temp-backup
+wordpress/wp-content/plugins/akismet
+wordpress/wp-content/plugins/hello.php
+wordpress/wp-content/plugins/index.php
+wordpress/wp-content/themes/twentytwentyone
+wordpress/wp-content/themes/twentytwentytwo
+wordpress/wp-content/themes/twentytwentythree
 
 
 
