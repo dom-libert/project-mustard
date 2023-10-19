@@ -2,10 +2,43 @@
 
 This repository as been set up as a testing environment for freelance developers.
 
-The following documentation goes through the steps to set up the environment and outlines the test(s) that are required for perspective freelancers to undertake.
+The following documentation goes through the steps to set up the environment & outlines the test(s) that are required for perspective freelancers to undertake.
 
-Each of the tasks should not take longer than 60 minutes to complete and no additional dependencies, libraries or plugins should be used to complete the task(s) listed below.
+Each of the tasks should not take longer than 60 minutes to complete & no additional dependencies, libraries or plugins should be used to complete the task(s) listed below.
 
 ## Set up
 
-This repo is designed to used locally using Docker
+This repository is designed to used with Docker, so please ensure that Docker and / or Docker Desktop is installed.
+
+Fork the repository to get a local version.
+
+After the containers and volumes have been created, navigate to the local environment and complete the wordpress installation.
+
+Once the installation is complete and the user has been created, change the theme to the 'Project-mustard' theme and active the necessary plugins.
+
+## Task: Carousel Build
+
+### Requirements
+
+- Use Advance Custom Fields (ACF) to create the fields needed for the carousel and it's items. The expectation is that the fields will be created via php and not the plugin.
+
+- Create a custom template file to host the carousel, rather than adding it to a preexisting single.php, archive.php or page.php template.
+
+- Use CSS or SASS / SCSS to create the styles for the carousel.
+
+- Use JavaScript or TypeScript to create the scripts of the carousel.
+
+- Use the carousel found under 'Our work' on this domain as the inspiration for the carousel build: <https://www.addmustard.com/>
+
+- The carousel items should include the follow elements:
+
+  - A logo image
+  - A feature image
+  - A link to a url of your choice (the destination of the url is not important)
+  - A section for copy that can include markup, similar to that found in the example above.
+
+- The carousel should have the follow functionality:
+
+  - The carousel should transition one item at a time when triggered
+  - The carousel should return to the beginning or end when reaching the extremes of its item count.
+  - The carousel should have touch / swipe functionality on mobile / touch devices.
