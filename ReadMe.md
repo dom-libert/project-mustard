@@ -4,29 +4,33 @@ This repository as been set up as a testing environment for freelance developers
 
 The following documentation goes through the steps to set up the environment & outlines the test(s) that are required for perspective freelancers to undertake.
 
-Each of the tasks should not take longer than 60 minutes to complete & no additional dependencies, libraries or plugins should be used to complete the task(s) listed below.
+Each of the tasks should not take longer than 60 minutes to complete & no additional plugins should be used to complete the task(s) listed below.
 
 ## Set up
 
 This repository is designed to used with Docker, so please ensure that Docker and / or Docker Desktop is installed.
 
-Fork the repository to get a local version.
+Clone the repository to get a local version and create a new branch to work from. Use the naming convention of `firstname-lastname` for the branch name.
 
 After the containers and volumes have been created, navigate to the local environment and complete the wordpress installation.
 
 Once the installation is complete and the user has been created, change the theme to the 'Project-mustard' theme and active the necessary plugins.
 
+## Uploading your work
+
+Once you have completed the task(s) below, please commit your work to your branch and push to the remote repository.
+
+Once you have pushed your work, please create a pull request to the master branch and assign the pull request.
+
+If you have made changes to the database, please export the database and zip any related files, sending them to: <tech@addmustard.com>
+
 ## Task: Carousel Build
 
 ### Requirements
 
-- Use Advance Custom Fields (ACF) to create the fields needed for the carousel and it's items. The expectation is that the fields will be created via php and not the plugin.
+- Use Advance Custom Fields (ACF) to create the fields needed for the carousel and it's items.
 
-- Create a custom template file to host the carousel, rather than adding it to a preexisting single.php, archive.php or page.php template.
-
-- Use CSS or SASS / SCSS to create the styles for the carousel.
-
-- Use JavaScript or TypeScript to create the scripts of the carousel.
+- Create a custom template file to host the carousel, rather than adding it to a pre-existing single.php, archive.php or page.php template.
 
 - Use the carousel found under 'Our work' on this domain as the inspiration for the carousel build: <https://www.addmustard.com/>
 
