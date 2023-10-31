@@ -63,5 +63,17 @@ endif;
 
 add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
+//add js script
+function my_scripts_method() {
+  wp_enqueue_script(
+    'carousel-script',
+    get_template_directory_uri() . '/assets/js/carousel.js'
+  );
+}
+
+add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
+
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+require get_template_directory() . '/inc/acf.php';
